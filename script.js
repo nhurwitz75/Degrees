@@ -7,7 +7,8 @@ function convertF() {
 }
 
 function clearConverted1() {
-    document.getElementById('textf').reset();  
+    document.getElementById('resultF').textContent = "";  
+    document.getElementById('textf').value = ''; 
     
 }
 
@@ -18,3 +19,4 @@ function convertC() {
 
     document.getElementById('resultC').textContent = (cf + " Fahrenheit"); 
 }
+
