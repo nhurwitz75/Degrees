@@ -20,3 +20,7 @@ function convertC() {
     document.getElementById('resultC').textContent = (cf + " Fahrenheit"); 
 }
 
+function clearConverted2() {
+    document.getElementById('resultC').textContent = "";
+    document.getElementById('textc').value = ''; 
+}
