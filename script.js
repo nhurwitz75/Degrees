@@ -1,7 +1,7 @@
 function convertF() {
     const inputf = document.getElementById('textf');
     const userInfo = inputf.value; 
-    const fc = ((userInfo - 32) * (5/9));  
+    const fc = ((userInfo - 32) * (5/9)).toFixed(3);  
 
     document.getElementById('resultF').textContent = (fc + " Celcius"); 
 }
