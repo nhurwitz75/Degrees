@@ -15,7 +15,7 @@ function clearConverted1() {
 function convertC() {
     const inputc = document.getElementById('textc');
     const userInfoSecond = inputc.value;
-    const cf = ((userInfoSecond * (9/5)) + 32); 
+    const cf = ((userInfoSecond * (9/5)) + 32).toFixed(3);  
 
     document.getElementById('resultC').textContent = (cf + " Fahrenheit"); 
 }
