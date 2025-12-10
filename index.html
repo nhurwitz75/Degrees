@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>Convert from f to c and from c to f</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <div class="f">
+                <input type="text" id="textf" placeholder="Insert Value">
+                <p id="resultF"></p>
+                <div class="sr1">
+                    <button id="ftoc" onclick="convertF()">Convert to Celcius</button>
+                    <button id="clearC" onclick="clearConverted1()">Reset</button>
+                </div>
+            </div>
+            <div class="c">
+                <input type="text" id="textc" placeholder="Insert Value">
+                <p id="resultC"></p>
+                <div class="sr2">
+                    <button id="ctof" onclick="convertC()">Convert to Fahrenheit</button>
+                    <button id="clearF">Reset</button>
+                </div>
+            </div> 
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
