@@ -1,13 +1,14 @@
 html {
-    min-height: 100vh;
-    background-image: linear-gradient(45deg, blue, hotpink);  
-    background-attachment: fixed;
+    min-height: 100%;
 }
 body {
     margin: 0;
     padding: 0;     
+    background-image: linear-gradient(45deg, blue, hotpink);  
+    min-height: 100%;
 }
 .container {
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -22,12 +23,11 @@ body {
         justify-content: center;
         align-items: center; 
         flex-direction: row;
-        height: 100vh; 
+        min-height: 100vh; 
     }
-    html {
+    body {
         background-image: linear-gradient(45deg, #667eea 50%, #764ba2 50%); 
-        min-height: 100vh;
-        background-attachment: fixed;
+        min-height: 100%;
     }
     .f,
     .c {
@@ -65,12 +65,11 @@ body {
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        height: 100vh; 
+        min-height: 100vh; 
     }
-    html {
+    body {
         background-image: linear-gradient(45deg, #667eea 50%, #764ba2 50%); 
-        min-height: 100vh;
-        background-attachment: fixed; 
+        min-height: 100%;
     }
     .f,
     .c {
