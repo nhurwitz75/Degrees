@@ -106,12 +106,12 @@ body {
     gap: 30px; 
 } 
 button {
-    height: 4em;
-    width: 10em;
+    height: 2em;
+    width: 7em;
 }
 input {
-    height: 5em;
-    width: 14em; 
+    height: 4em;
+    width: 10em;  
     text-align: center; 
 }
 input,
